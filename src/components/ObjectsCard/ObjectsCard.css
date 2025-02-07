@@ -1,0 +1,32 @@
+/* src/components/ObjectsCard/ObjectsCard.css */
+.objects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .objects-grid > div {
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 8px;
+    transition: transform 0.2s;
+  }
+  
+  .objects-grid > div:hover {
+    transform: translateY(-2px);
+    background: rgba(255, 255, 255, 0.05);
+  }
+  
+  .objects-grid h3 {
+    margin: 0;
+    color: var(--primary);
+    font-size: 1.1rem;
+  }
+  
+  .objects-grid p {
+    margin: 0.5rem 0 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }

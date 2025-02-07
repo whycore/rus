@@ -1,0 +1,37 @@
+/* src/components/BalanceCard/BalanceCard.css */
+.card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    backdrop-filter: blur(10px);
+  }
+  
+  .balance-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .balance-item:last-child {
+    border-bottom: none;
+  }
+  
+  .balance-item img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  .balance-item h3 {
+    margin: 0;
+    color: var(--primary);
+  }
+  
+  .balance-item p {
+    margin: 0.25rem 0 0;
+    opacity: 0.8;
+  }

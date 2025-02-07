@@ -1,0 +1,46 @@
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+h1 {
+  color: #00ffff;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.search-box {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+input {
+  flex: 1;
+  padding: 1rem;
+  border: 2px solid #00ffff;
+  background: transparent;
+  color: white;
+  border-radius: 8px;
+}
+
+button {
+  padding: 1rem 2rem;
+  background: #00ffff;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #00cccc;
+}
+
+button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
